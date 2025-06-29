@@ -1,8 +1,8 @@
- What Is System Design?
+# What Is System Design?
 
 System Design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. In software engineering, it’s about designing scalable, efficient, and maintainable software systems, especially those used at large scale like social media platforms, e-commerce sites, or cloud services.
 
-🔍 Why Is System Design Important?
+# 🔍 Why Is System Design Important?
 Ensures the system can handle growth in users and data
 
 Improves performance, scalability, and reliability
@@ -13,7 +13,7 @@ Crucial for building real-world software products
 
 Common in tech interviews at companies like Google, Amazon, Meta, etc.
 
-🧱 Key Concepts in System Design
+# 🧱 Key Concepts in System Design
 1. High-Level Design
 Defines the overall architecture
 
@@ -26,7 +26,7 @@ Focuses on class-level or module-level design
 
 Defines logic, data flow, APIs, class diagrams, etc.
 
-⚙️ Common System Components
+# ⚙️ Common System Components
 Component	Purpose
 Load Balancer	Distributes traffic evenly across servers
 Application Server	Hosts backend logic
@@ -36,7 +36,7 @@ Message Queue	Enables asynchronous communication (e.g. Kafka, RabbitMQ)
 CDN	Delivers static content close to users
 API Gateway	Manages and routes external API calls
 
-📐 Design Considerations
+# 📐 Design Considerations
 When designing a system, engineers must evaluate:
 
 Concern	Description
@@ -48,7 +48,7 @@ Consistency	Does everyone see the same data at the same time?
 Maintainability	Is it easy to update, debug, and improve?
 Security	How are users/data protected from threats?
 
-🧠 Common Topics in System Design Interviews
+# 🧠 Common Topics in System Design Interviews
 Design a URL shortener (like bit.ly)
 
 Design a messaging system (like WhatsApp)
@@ -59,7 +59,7 @@ Design rate limiter, cache, load balancer, search engine
 
 Trade-offs between SQL vs NoSQL, microservices vs monolith
 
-📘 Example System Design: URL Shortener
+# 📘 Example System Design: URL Shortener
 Requirements:
 Shorten a long URL
 
@@ -78,10 +78,10 @@ Cache frequently used links
 
 Optional: Rate limiting, analytics, authentication
 
-🎯 Final Thought
+# 🎯 Final Thought
 System Design is not about just writing code — it's about thinking holistically, anticipating real-world challenges, and creating software that performs reliably at scale.
 
-Would you like:
+# Would you like:
 
 A beginner-friendly PDF guide on system design?
 
